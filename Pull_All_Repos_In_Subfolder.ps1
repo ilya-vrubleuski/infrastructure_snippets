@@ -1,0 +1,1 @@
+foreach($folder in Get-ChildItem){cd $folder; git pull; cd..}
